@@ -1,0 +1,357 @@
+/*Виділення всіх елементів*/
+*{
+/*  margin-left: 250px;*/
+/*  margin-right: 250px;*/
+	box-sizing: border-box;
+   font-size: 16px;
+   font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 10px;
+  line-height: 30px;
+}
+/*Контейнер блок*/
+.container{
+  width: 1500px;
+  margin:  0 auto;
+}
+/*Заголовки 1-го рівня*/
+.headline{
+  font-size: 48px;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 30px;
+/*  padding-left: 600px;*/
+}
+/*Заголовки 2-го рівня*/
+.headline-skills{
+  font-size: 48px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.headline_hard-skill{
+   font-size: 36.8px;;
+  text-align: center;
+  padding: 10px;
+}
+.headline_soft-skill{
+  padding: 10px;
+   font-size: 36.8px;
+  text-align: center;
+}
+#my-work-headline{
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.headline-work-sedona{
+  text-align: center;
+  font-size: 36.8px;;
+  padding-bottom: 20px;
+}
+.headline-work-future{
+  text-align: center;
+  font-size: 36.8px;;
+  padding-bottom: 20px;
+}
+.contact-headline{
+  font-size: 48px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+
+}
+/*Шапка веб-сайту*/
+.header{
+  /* border: 1px solid red; */
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+/*Меню веб-сайта*/
+.header-menu{
+  height: 100px;
+  width: 1450px;
+  /* border: 1px solid yellow; */
+}
+/*Розділи контактів/моїх робіт в меню*/
+.menu-items-contact{
+  width: 200px;
+  height: 100px;
+  /* float: right; */
+  /*border: 1px solid blACK;*/
+/*  text-align: right;*/
+/*  margin-right: 250px;*/
+}
+.menu-items-work{
+  /*border: 1px solid purple;*/
+  /* float: left; */
+  width: 400px;
+  height: 100px;
+/*  margin-left: 250px;*/
+}
+/*Параграфи в меню header*/
+.work-header{
+  font-size: 40px;
+}
+/*links в параграфах ВСІХ*/
+.menu-contacts:hover{
+  text-decoration: underline ;
+}
+.menu-works:hover{
+  text-decoration: underline ;
+}
+.menu-contacts{
+  font-size: 48px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.menu-works{
+  text-decoration: none;
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+/*links в моїх роботах*/
+.headline-links-works2{
+  color: black;
+  text-decoration: none;
+}
+.headline-links-works2:hover{
+  text-decoration: underline;
+}
+/*Основа сайту*/
+.main{
+  /* border: 2px solid orange; */
+}
+/*Розділ про мене*/
+.section_about-me{
+  /* border: 2px solid green; */
+}
+/*Текст в описі про мене*/
+.paragraph-about-me{
+  text-align: justify;
+}
+.text_box{
+  /* border: 1px solid green; */
+  padding: 5px;
+}
+/*Моя фотографія*/
+.my-photo{
+  height: 600px;
+  /* padding-left: 330px; */
+  /* margin: 35px; */
+}
+/*Блок моєї фотографії*/
+.photo-me{
+  /* border: 1px solid gray; */
+  height: 600px;
+  width: 1476px;
+  display: flex;
+  justify-content: center;
+}
+/*Розділ мої скілли*/
+.section_skills{
+/*  height: 700px;*/
+  /*border: 1px solid orange;*/
+}
+/*Основний блок в якому вкладенні 2 блока в яких опис скіллів*/
+.div_skill{
+  height: 600px;
+  width: 1500px;
+  /* border: 1px solid purple; */
+  display: flex;
+  justify-content: space-around;
+}
+/*Блок Hard-skill і Soft-skill*/
+.div_hard-skill{
+  height: 600px;
+  /* float: left; */
+  width: 50%;
+  /*border: 1px solid purple*/
+}
+.div_soft-skill{
+  height: 600px;
+  /* float: right; */
+  width: 50%;
+  /*border: 1px solid red;*/
+}
+/*Списки*/
+.div_soft-skill{
+  padding-left: 40px;
+}
+
+ul{
+  list-style-type:  square;
+  margin: 40px;
+}
+/*Елемент списків*/
+li{
+  font-size: 27.2px;
+  font-weight: 400;
+  padding: 10px;
+}
+/*Розділ мої роботи*/
+.section_my-work{
+  height: 2550px;
+  /* border: 3px solid black; */
+}
+.works{
+  display: flex;
+  height: 1025px;
+  /* border: 3px solid yellowgreen; */
+}
+/*Блок 1 Седона*/
+.div_work1{
+  height: 700px;
+  width: 700px;
+  /* float: right; */
+  /*border: 5px solid red;*/
+  padding: 20px;
+  margin: 10px;
+}
+/*Блок 2 Ми в майбутньому*/
+.div_work2{
+  height: 700px;
+  width: 700px;
+  /* float: left; */
+  /*border: 5px solid purple;*/
+  padding: 20px;
+  margin: 10px;
+}
+.works2{
+  display: flex;
+}
+.div_work_special{
+ height: 700px;
+  width: 700px;
+  /* float: right; */
+  /*border: 5px solid red;*/
+  padding: 20px;
+  margin: 10px;
+}
+.lastwork{
+  display: flex;
+  /* border: 1px solid green; */
+  margin-top: 30px;
+  /* height: 800px;
+  width: 700px; */
+}
+/*Текст до проєктів*/
+/*desc - це скорочене слово "Опис" по анг*/
+.desc-work{
+  text-align: justify;
+}
+/*Всі блоки зоображень до проєктів*/
+.image-sedona{
+  height: 459px;
+  width: 665px;
+  /*border: 1px solid red;*/
+  margin-top: 14px;
+  background-image: url("../img/sedona.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.image-my-project{
+  height: 459px;
+  width: 665px;
+  /*border: 1px solid red;*/
+  margin-top: 45px;
+  background-image: url("../img/projectcolor.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.image-future1{
+  height: 459px;
+  width: 665px;
+  /*border: 1px solid red;*/
+  margin-top: 45px;
+  background-image: url("../img/future.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.image-time{
+  height: 459px;
+  width: 665px;
+  /*border: 1px solid red;*/
+  margin-top: 45px;
+  background-image: url("../img/timecolor.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.image-figma{
+  height: 459px;
+  width: 665px;
+  /*border: 1px solid red;*/
+  margin-top: 45px;
+  background-image: url("../img/figma.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*Стилі для перекрашення при наведені фотографій*/
+.image-time:hover{
+  background: url("../img/time.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+.image-figma:hover{
+  background: url("../img/figmacolog.jpg");
+  background-repeat: no-repeat;
+background-size: 100%;
+}
+.image-sedona:hover{
+  background: url("../img/sedonacolor.jpg");
+    background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.image-future1:hover{
+        background-image: url("../img/futurecolor.jpg");
+}
+.image-my-project:hover{
+  background: url("../img/project.jpg");
+  background-repeat: no-repeat;
+background-size: 100%;  
+}
+/*Підвал сайту*/
+.footer{
+  /* border: 10px solid blue; */
+  height: 200px;
+/*  margin-bottom: 2000px;*/
+}
+/*Блок с параграфом контактами*/
+.mail{
+  /*border: 2px solid red;*/
+  height: 20px;
+  width: 50px;
+/*  margin-left: 550px;*/
+}
+/*Параграф контактів*/
+#contact{
+  font-family: "PT Sans", sans-serif;
+  /* border: 1px solid yellow; */
+}
+/*Елемент для span якій збільшує жирність тексту*/
+.bot{
+  font-weight: 900;
+}
+/*Параграф*/
+p{
+  font-weight: 200;
+  font-size: 25px;
+/*  text-indent: 20px;*/
+text-align: center;
+margin: 20px;
+}
+/*Блок у футері*/
+.footer_text{
+  /* border: 2px solid orange; */
+}

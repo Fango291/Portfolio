@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+     font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    /* border: 1px solid green; */
+    margin-bottom: 50px;
+    width: 1166px;
+}
+.header_title{
+     font-family: "Playfair Display", serif;
+}
+.nav_left{
+    width: 103px;
+    height: 26px;
+}
+.nav_center{
+    width: 550px;
+    height: 13px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation_text_target{
+    color: #A69876;
+}
+.nav_left{
+    width: 130px;
+    height: 21px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.xleb{
+    width: 500px;
+    height: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.xled_text{
+    color: #BDB9B5;
+}
+.xled_target{
+    color: black;
+}
+.main{
+    width: 1166px;
+    /* border: 1px solid red; */
+}
+.section_box{
+    width: 1166px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.section_photo{
+    width: 561px;
+    display: flex;  
+    /* border: 10px solid yellow; */
+}
+.section_text{
+    width: 600px;   
+    /* border: 10px solid green; */
+    display: flex;
+     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    width: 620px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.photo3{
+    display: flex;
+}
+.png_photo{
+    align-self: center;
+}
+.first_photo{
+    height: 520px;
+    width: 423px;
+}
+.min_phot{
+    /* border: 1px solid orange; */
+    background: lightgrey;
+    width: 127px;
+}
+.min_phot_target{
+    width: 127px;
+    height: 121px;
+    /* border: 1px solid orange; */
+}
+.texting{
+    /* border: 1px solid yellow; */
+    width: 422px;
+    height: 390px;
+}
+.title{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    width: 388px;
+    height: 32px;
+}
+.title_photo{
+    margin-left: 15px;
+    width: 37px;
+    height: 32px;
+}
+.cost{
+    color: grey;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.desc_title{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+}
+.grey_block{
+    width: 71px;
+    height: 1px;
+    background: grey;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+.title_desc{
+    /* border: 1px solid red; */
+    height: 20px;
+}
+.title_desc_tex{
+    /* border: 1px solid red; */
+    width: 230px;
+    height: 20px;
+}
+.desc{
+    /* border: 1px solid red; */
+}
+.desc_text_glav{
+    margin: 25px 0px;
+}
+.button{
+    width: 185px;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    margin-right: 230px;
+}
+.button_text{
+    color: white;
+}
+.check{
+    /* border: 1px solid violet; */
+}
+img{
+    /* border: 1px solid orange; */
+}
+.usee{
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", serif;
+}
+.catalog{
+     width: 1160px;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 25px;
+     align-items: center;
+}
+.catalog-box{
+    width: 360px;
+}
+.footer{
+    background: #444240;
+    width: 1520px;
+    height: 275px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+.box_footer_first{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    padding-bottom: 35px;
+}
+.logo_footer{
+    width: 25px;
+    height: 25px;
+}
+.hedline_block{
+    display: flex;
+    justify-content: space-around;
+}
+.help{
+    font-size: 12px;
+}
